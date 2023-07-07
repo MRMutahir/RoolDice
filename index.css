@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    /* background-image:  linear-gradient(#c7ecee,#95afc0); */
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+}
+/* .jeery{
+height: 400px;
+width: 500px;
+left: 600px;
+top: 100px;
+position: absolute;
+} */
+.hony{
+    /* height: 400px;
+    width: 500px; */
+    left: 50px;
+    top: 100px;
+    position: absolute;
+}
+.gif{
+    height: 40vh;
+    width: 50vw;
+    background: url(./assets/gif1.gif);
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    margin-right: 20px;
+}
+.button{
+    position: absolute;
+    top: 400px;
+    right: 300px;
+    
+}
+.button button{
+    background-color:#f6e58d;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    font-family: fantasy;
+    font-size: 32px;
+    font-style: oblique;
+}
+.button button:hover{
+   transition: all;
+   transform: scale(0.9);
+   background-color:  #f9ca24;
+}

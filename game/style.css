@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.mainrool {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+    background: #d2dae2;
+    /* padding: 50px; */
+}
+
+.mainrool h2 {
+    margin-top: 40px;
+}
+
+.same {
+    margin: 80px;
+    text-align: center;
+    background-color: #ff5e57;
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: 10px 10px 10px #485460;
+}
+
+.same h1 {
+    font-size: 42px;
+}
+
+.scorenutton {
+    margin-top: 80px;
+    /* padding: 20px; */
+}
+
+.scorenutton button {
+    width: 200px;
+    border-radius: 10px;
+    background-color: #ef5777;
+    border: none;
+    box-shadow: 10px 10px 10px black;
+    height: 80px;
+    line-height: 20px;
+    font-size: 24px;
+    font-style: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gamecontroler {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 60px;
+}
+
+#Hold {
+    background-color: #e87c93;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.New {
+    background-color: #d51c44;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.rolldicecontrol {
+    background-color: #e87c93;
+    border-radius: 5px;
+    height: 50px;
+}
